@@ -1,0 +1,27 @@
+/* ================================
+  ONY DESIGN SYSTEM - MAIN ENTRY
+   Compatible Light/Dark Mode
+   ================================ */
+
+@import './colors.css';
+@import './typography.css';
+@import './components.css';
+@import './layout.css';
+
+/* Réglages généraux */
+:root {
+  font-family: var(--font-primary);
+  scroll-behavior: smooth;
+  --ifm-border-radius: 12px;
+  --ifm-spacing-horizontal: 1.25rem;
+  --ifm-spacing-vertical: 1.25rem;
+}
+
+/* Liens génériques */
+a {
+  color: var(--ifm-color-primary);
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: var(--ifm-color-primary-dark);
+}

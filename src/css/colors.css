@@ -1,0 +1,59 @@
+/* ================================
+  ONY COLOR SYSTEM - LIGHT & DARK
+   ================================ */
+
+/* --- Mode clair --- */
+:root {
+  /* Couleurs principales */
+  --ifm-color-primary: #ed6b1c;
+  --ifm-color-primary-dark: #d85f19;
+  --ifm-color-primary-light: #f18a49;
+  --ifm-color-primary-contrast-background: #1d1d1b;
+  --ifm-color-primary-contrast-foreground: #f5f4f0;
+
+  /* Couleurs d'arrière-plan et texte */
+  --color-bg: #f5f4f0;
+  --color-surface: #ffffff;
+  --color-surface-alt: #faf8f4;
+  --color-border: #e6e0d6;
+  --color-text: #1d1d1b;
+  --color-text-secondary: #3d3d3b;
+
+  /* Tokens marque ONY */
+  --ony-orange: #ed6b1c;
+  --ony-ink: #1d1d1b;
+  --ony-paper: #f5f4f0;
+  --ony-amber: #fbb12e;
+  --ony-yellow: #fed82f;
+
+  /* Feedback */
+  --color-error: #E53935;
+  --color-success: #2e7d32;
+  --color-warning: #fbb12e;
+}
+
+/* --- Mode sombre --- */
+html[data-theme='dark'] {
+  --ifm-color-primary: #f18a49;
+  --ifm-color-primary-dark: #ed6b1c;
+  --ifm-color-primary-light: #f5a872;
+  --ifm-color-primary-contrast-background: #f5f4f0;
+  --ifm-color-primary-contrast-foreground: #1d1d1b;
+
+  --color-bg: #1d1d1b;
+  --color-surface: #262624;
+  --color-surface-alt: #2d2d2b;
+  --color-border: #3a3a38;
+  --color-text: #f5f4f0;
+  --color-text-secondary: #d8d4cc;
+
+  --ony-orange: #ed6b1c;
+  --ony-ink: #1d1d1b;
+  --ony-paper: #f5f4f0;
+  --ony-amber: #fbb12e;
+  --ony-yellow: #fed82f;
+
+  --color-error: #FF6B6B;
+  --color-success: #5ad08a;
+  --color-warning: #fbb12e;
+}

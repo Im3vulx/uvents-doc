@@ -1,0 +1,21 @@
+image: node:20
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - docs/node_modules/
+
+pages:
+  stage: deploy
+  script:
+    - cd docs
+    - npm ci || npm install
+    - npm run build
+    - ls -l ../build
+    - mkdir -p ../public
+    - cp -r ../build/* ../public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

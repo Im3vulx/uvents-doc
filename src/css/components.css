@@ -1,0 +1,64 @@
+/* ================================
+  ONY COMPONENTS
+   Compatible Light/Dark
+   ================================ */
+
+/* --- Boutons --- */
+.button.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  border-radius: 14px;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 10px rgba(30, 100, 255, 0.25);
+  transition: all 0.25s ease;
+}
+.button.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  box-shadow: 0 6px 14px rgba(30, 100, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+/* --- Navbar --- */
+.navbar {
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: background-color 0.2s ease;
+}
+.navbar__title {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+/* --- Footer --- */
+.footer {
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+/* --- Cartes --- */
+.card {
+  background-color: var(--color-surface);
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.25s ease;
+}
+.card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.card h3 {
+  color: var(--color-text);
+}
+.card p {
+  color: var(--color-text-secondary);
+}
